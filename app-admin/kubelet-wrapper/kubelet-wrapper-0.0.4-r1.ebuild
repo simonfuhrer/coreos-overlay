@@ -14,7 +14,7 @@ LICENSE="Apache-2.0"
 SLOT="0"
 IUSE=""
 
-RDEPEND=">=app-emulation/rkt-1.9.1[rkt_stage1_fly]"
+RDEPEND=">=app-emulation/docker-18.03"
 
 # work around ${WORKDIR}/${P} not existing
 S=${WORKDIR}

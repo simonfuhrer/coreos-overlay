@@ -53,3 +53,7 @@ dev-util/checkbashisms
 # Choose the newer spidermonkey revision to support GCC 8.3.0.
 # https://bugs.gentoo.org/686744
 =dev-lang/spidermonkey-1.8.5-r7
+
+# required by selinux-dbus, selinux-unconfined
+=sec-policy/selinux-base-policy-9999 **
+=sec-policy/selinux-base-9999 **
